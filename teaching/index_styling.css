@@ -4,8 +4,13 @@ li {
 	font-size: 20px;
 }
 
-li.skills {
+li.courses {
 	padding-right: 10px;
 	padding-left: 10px;
-	font-size: 16px;
+	font-size: 18px;
 }
+
+p {
+	font-size: 18px;
+}
+

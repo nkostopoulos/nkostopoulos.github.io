@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Bootstrap Example</title>
+  <title>Nikos Kostopoulos (Personal Website)</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
@@ -14,30 +14,57 @@
 
 <nav class="navbar navbar-expand-lg bg-dark">
   <div class="ml-auto">
+	  <button class="navbar-toggler btn btn-light" style="color: white;" type="button" data-toggle="collapse" data-target="#navbarTarget">
+          <span class="navbar-toggler-icon"></span>Menu
+	  </button>
+  <div class="collapse navbar-collapse" id="navbarTarget">
   <ul class="navbar-nav">
     <li class="nav-item">
 	    <a class="nav-link text-white" href="#"><b>Home</b></a>
     </li>
     <li class="nav-item">
-	    <a class="nav-link text-white" href="#"><b>Publications</b></a>
+	    <a class="nav-link text-white" href="./publications/index.html"><b>Publications</b></a>
     </li>
     <li class="nav-item">
-	    <a class="nav-link text-white" href="#"><b>Project</b></a>
+	    <a class="nav-link text-white" href="./projects/index.html"><b>Projects</b></a>
     </li>
     <li class="nav-item">
-	    <a class="nav-link text-white" href="#"><b>Teaching</b></a>
+	    <a class="nav-link text-white" href="./teaching/index.html"><b>Teaching</b></a>
     </li>
     <li class="nav-item">
-	    <a class="nav-link text-white" href="#"><b>Contact</b></a>
+	    <a class="nav-link text-white" href="./contact/index.html"><b>Contact</b></a>
     </li>
   </ul>
+  </div>
   </div>
 </nav>
 <br>
 
 <div class="container-fluid">
-	<h2>General Information</h2>
-	<p>I hold a diploma in Electrical and Computer Engineering from the National Technical University of Athens (NTUA). I am currently a fourth year Ph.D. student at NTUA focusing on network security tailored to the DNS service. My research interests include: computer networks, network monitoring, Distributed Denial of Service (DDoS) attack detection and mitigation, probabilistic data structures, machine/deep learning and botnet traffic detection (Domain Generation Algorithms, DGAs).</p>
+	<div class="container">
+	<div class="row">
+	<div class="col-sm-6">
+	    <h3><b>Nikos Kostopoulos</b><h3>
+	        <p><a href="https://www.github.com/nkostopoulos">GitHub</a></p>
+	</div>
+	<div class="col-sm-6">
+	<h2>Bio</h2>
+	<p class="text-justify">I hold a diploma in Electrical and Computer Engineering from the National Technical University of Athens (NTUA). I am currently a fourth year Ph.D. student at NTUA focusing on network security tailored to the DNS service. My research interests include: computer networks, network monitoring, Distributed Denial of Service (DDoS) attack detection and mitigation, probabilistic data structures, machine/deep learning and botnet traffic detection (Domain Generation Algorithms, DGAs).</p>
+	</div>
+	<div class="col-sm-6">
+	<h2>Skills</h2>
+	<p><b>Programming:</b> C, Python, Java, MATLAB/Octave, Assembly</p>
+	<p><b>Web:</b> HTML, CSS (Bootstrap 4), JavaScript</p>
+	<p><b>Operating Systems:</b> Linux (Debian/Ubuntu), Windows</p>
+	<p><b>Network Management:</b> 
+	<ul>
+		<li class="skills">TCP/IP Stack, Software Defined Networks (OpenFlow) </li>
+		<li class="skills">Monitoring (NetFlow, sFlow, Netdata, collectd) </li> 
+		<li class="skills">Quagga, Open vSwitch, Routing & Switching </li>
+		<li class="skills">Virtualization Platforms (VirtualBox, ProxMox, VMware ESXi)</li> 
+		<li class="skills">Docker Containers, Version Control (Git) </li> 
+		<li class="skills">ELK Stack</li>
+	</ul>
 </div>
 
 </body>
